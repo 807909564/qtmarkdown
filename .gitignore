@@ -1,0 +1,14 @@
+*~
+bin/
+build/
+*.swap
+*.user
+*.img*
+*.tar.bz2
+*_import.cpp
+.qmake.cache
+.qmake.stash
+Makefile
+.qtquickcompiler/
+*_qtquickcompiler.qrc
+make.sh
