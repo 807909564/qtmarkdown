@@ -1,9 +1,9 @@
 /* PEG Markdown Highlight
  * Copyright 2011 Ali Rantakari -- http://hasseg.org
  * Licensed under the GPL2+ and MIT licenses (see LICENSE for more info).
- * 
+ *
  * highlighter.h
- * 
+ *
  * Qt 4.7 example for highlighting a rich text widget.
  */
 
@@ -35,7 +35,6 @@ struct HighlightingStyle
     pmh_element_type type;
     QTextCharFormat format;
 };
-
 
 class HGMarkdownHighlighter : public QObject
 {
