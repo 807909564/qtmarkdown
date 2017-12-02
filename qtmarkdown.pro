@@ -25,10 +25,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    qmarkdowntextedit.cpp \
+    lib/peg-markdown-highlight/highlighter.cpp \
+    lib/peg-markdown-highlight/pmh_parser.c
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    qmarkdowntextedit.h \
+    lib/peg-markdown-highlight/highlighter.h \
+    lib/peg-markdown-highlight/pmh_definitions.h \
+    lib/peg-markdown-highlight/pmh_parser.h
 
 FORMS += \
         mainwindow.ui
+
+DISTFILES += \
+    lib/peg-markdown-highlight/README.md \
+    lib/peg-markdown-highlight/LICENSE
